@@ -3,7 +3,7 @@ This repository contains key analysis functions used to generate the data presen
 
 The code may be freely used. If used in an academic papaer, please cite the bioRxiv manuscript and/or this GitHub repository: https://github.com/WittonLab/Goodwin-et-al_2026.
 
-The code is provided "as is". It has been specifically formatted for use on multi-image TIFF image files acquired using ScanImage for two-photon microscopy experiments, and will
+The code is provided "as is". It has been specifically formatted for use on multi-image TIFF files acquired using ScanImage for two-photon microscopy experiments, and will
 likely need to be adapted to work with your data.
 
 The purpose of each script is:
