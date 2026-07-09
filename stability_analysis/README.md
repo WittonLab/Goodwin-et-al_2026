@@ -1,10 +1,10 @@
 # Setup and Use
-To start, clone this repo locally. Any identically formatted data can still be run through this pipeline.
+To start, clone this repo locally. This is a general-purpose tool; any identically formatted data can still be run through this pipeline.
 
 
 `git clone https://github.com/WittonLab/Goodwin-et-al_2026.git`
 
-Create a python virtual environment like so:
+Create a Python virtual environment like so:
 
 `python3 -m venv venv`
 
@@ -30,7 +30,7 @@ After running the Makefile, call the main script to start analysis:
 
 `python3 main.py XXX`,
 
-This may take a few minutes to complete. Calling `main.py` will generate the manifold and correlation plots.
+This may take a few minutes to complete. Calling `main.py` will generate manifold and correlation plots.
 
 `ach_behav_analysis` analyses another cohort of mice from which acetylcholine signals were recorded. This script runs manifold analysis on the behavioural recordings of these mice and correlates it with the levels of acetylcholine.
 
