@@ -6,4 +6,3 @@ The code may be freely used. If used in an academic papaer, please cite the bioR
 The code is provided "as is". It has been specifically formatted for use on multi-image TIFF files acquired using ScanImage for two-photon microscopy experiments, and will
 likely need to be adapted to work with your data.
 
-The purpose of each script is:
