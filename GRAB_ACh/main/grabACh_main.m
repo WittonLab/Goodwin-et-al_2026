@@ -3,29 +3,25 @@
 %  ========================================================================
 
 % Get the path to this script and the repository root.
-% Assumes this file is inside:
-%   GRAB-ACh/main/
 mainDir = fileparts(mfilename('fullpath'));
 repoRoot = fileparts(mainDir);
 
 % Add repository functions to the MATLAB path.
 addpath(genpath(fullfile(repoRoot, 'functions')));
 
-% Optional: add external dependencies if you use this folder.
-externalDir = fullfile(repoRoot, 'external');
-if exist(externalDir, 'dir')
-    addpath(genpath(externalDir));
-end
 
 % -------------------------------------------------------------------------
 % Session settings
 % -------------------------------------------------------------------------
 
-pat = 'Z:\Mellor Lab data\Dan Goodwin\Cohort 5\240307\DG21';
-behaviourRoot = 'C:\Users\dgood\OneDrive - University of Exeter\Desktop\VR Data\Cohort 6\Behaviour';
+% Imaging session directory
+pat = 'C:\path\to\imaging\session';
 
-animalID = 'DG21';
-exptDate = '240307';
+% Directory containing Virmen behaviour logs
+behaviourRoot = 'C:\path\to\behaviour';
+
+animalID = 'mouseID';
+exptDate = 'date';
 exptNo = 2;
 fn = 'file_00001';
 vrWithimaging = 1;
