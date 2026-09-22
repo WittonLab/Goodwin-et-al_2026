@@ -84,9 +84,3 @@ Exact package requirements may depend on the Python environment used for Suite2p
 ## MATLAB requirements
 
 MATLAB is required for the behavioural preprocessing step.
-
-## Citation
-
-If you use this code, please cite:
-
-> Goodwin et al. (2026)
